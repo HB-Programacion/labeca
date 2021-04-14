@@ -1,0 +1,614 @@
+/* global*/
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+h2,
+h3 {
+  color: #38a1d7;
+}
+p {
+  text-align: justify;
+  text-align-last: left;
+  margin-bottom: 25px;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-justify {
+  text-align: justify;
+}
+.txt-right {
+  text-align: right;
+}
+
+/* titles */
+.ecavet_txt {
+  text-indent: -9999px;
+  width: 260px;
+  height: 60px;
+  background: url(img/logos/EcaVet.jpg) no-repeat;
+}
+
+.ecaderm_txt {
+  text-indent: -9999px;
+  width: 260px;
+  height: 60px;
+  background: url(img/logos/EcaDerm.jpg) no-repeat;
+}
+
+.ecaotic_txt {
+  text-indent: -9999px;
+  width: 260px;
+  height: 60px;
+  background: url(img/logos/EcaOtic.jpg) no-repeat;
+}
+
+.cover-home {
+  width: 100vw;
+  height: 104vh;
+  overflow: hidden;
+  background: url(img/xs.jpg) no-repeat top center;
+  position: relative;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.cover-home > h1 {
+  display: block;
+  width: 280px;
+  height: 130px;
+  text-indent: -9999px;
+  background: url("img/logo-cover.png") no-repeat;
+  margin: 200px auto;
+  margin-bottom: 0px;
+}
+.cover-home > a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 125px auto;
+  background: #38a1d6;
+  border-radius: 25px;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+/*  NAV BAR */
+.navbar-default {
+  background: #fff;
+  border: 0px solid #47afe4;
+}
+.navbar-brand {
+  width: 86px;
+  height: 38px;
+  background: url(img/logo.png) no-repeat;
+  text-indent: -9999px;
+  margin-top: 6px;
+}
+
+/* COVER */
+.portada {
+  min-height: 160px;
+  max-height: 274px;
+  height: 274px;
+}
+.portada-cover {
+  background: url(img/covers/coverTop_md-sm.jpg) no-repeat center top;
+}
+.portada-contacto {
+  background: url(img/covers/cover2_sm.jpg) no-repeat center top;
+}
+.portada-casos {
+  background: url(img/covers/c_casos_sm.jpg) no-repeat center top;
+}
+.portada-beneficios {
+  background: url(img/covers/beneficios_sm.jpg) no-repeat center top;
+}
+.ptoVenta-cover {
+  background: url(img/covers/ptoVenta_sm.jpg) no-repeat center top;
+}
+.nosotros-cover {
+  background: url(img/covers/nosotros_sm.jpg) no-repeat center top;
+}
+.utilidades-cover {
+  background: url(img/covers/utilidades_sm.jpg) no-repeat center top;
+}
+.tecnologia-cover {
+  background: url(img/covers/tecnologia_sm.jpg) no-repeat center top;
+}
+.acido-cover {
+  background: url(img/covers/acido_sm.jpg) no-repeat center top;
+}
+.articulos-cover {
+  background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
+    no-repeat center top;
+}
+.productos-cover {
+  background: url(img/covers/productos_sm.jpg) no-repeat center top;
+}
+
+.mainMsje {
+  color: #F39149;
+  font-family: "Lato", cursive;
+  max-width: 100%;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+/* CONTAINER */
+.container-fx {
+  padding: 25px 0px;
+  border-radius: 20px;
+  min-height: 150px;
+  background: white;
+  margin-top: 25px;
+}
+/* ROW */
+.row {
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+/*MARGIN */
+.mb {
+  margin-bottom: 25px;
+}
+
+/* BOTONES */
+.btn-info {
+  background: #38a1d7;
+  border: #38a1d7;
+}
+.btn-info:hover {
+  background: #99b720;
+  border: #99b720;
+}
+
+/* Imagenes */
+img {
+  margin-bottom: 25px;
+}
+.img-mt {
+  margin-top: 15px;
+}
+
+/* divisor */
+.divisor {
+  height: 120px;
+  margin: -20px 0 0 0;
+  background: url(img/divisor@2x.png) center center no-repeat;
+}
+
+/************** TABLE ******************************/
+
+.table td {
+  width: 70%;
+}
+.table .td-small {
+  width: 15%;
+}
+
+/************** FOOTER ******************************/
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.img-footer {
+  margin-top: 30px;
+}
+.txt-footer {
+  margin-top: 30px;
+}
+/*
+    footer {
+        background: url(img/footer.jpg) no-repeat bottom right;
+        margin-top: 50px; min-height: 200px; 
+        
+    }
+    
+    footer > .row { margin-top: 120px;} 
+    */
+/************* PAGINA UTILIDADES ********************/
+.grid {
+  margin: 0 auto;
+}
+.grid-item {
+  float: left;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin: 5px 5px;
+}
+.grid-item .utilidad-img {
+  width: 250px;
+  height: 200px;
+}
+.grid-item--width2 {
+  width: 510px;
+  height: 250px;
+}
+.grid-item--width2 .utilidad-img {
+  width: 510px;
+  height: 200px;
+}
+.grid-item--width2 .utilidad-caption {
+  width: 510px;
+  height: 50px;
+}
+.grid-item--height2 {
+  height: 510px;
+}
+.grid-item--height2 .utilidad-img {
+  width: 250px;
+  height: 460px;
+}
+.grid-item-blue {
+  background: #38a1d6;
+}
+.grid-item-green {
+  background: #99b71d;
+}
+.utilidad-holder {
+  display: block;
+  min-height: 300px !important;
+  margin: 0 auto;
+}
+.utilidad-caption {
+  width: 250px;
+  height: 50px;
+  display: block;
+}
+.utilidad-caption > p {
+  font-size: 12px;
+  color: white;
+  padding: 10px 5px 0 15px;
+  line-height: 14px;
+}
+
+/* col - SM */
+@media (min-width: 768px) {
+}
+/* col - MD */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .portada {
+    min-height: 281px;
+  }
+  .portada-cover {
+    background: url(img/covers/coverTop_md.jpg) no-repeat center top;
+  }
+  .portada-contacto {
+    background: url(img/covers/cover2_md.jpg) no-repeat center top;
+  }
+  .portada-casos {
+    background: url(img/covers/c_casos_md.jpg) no-repeat center top;
+  }
+  .portada-beneficios {
+    background: url(img/covers/beneficios_md.jpg) no-repeat center top;
+  }
+  .ptoVenta-cover {
+    background: url(img/covers/ptoVenta_md.jpg) no-repeat center top;
+  }
+  .nosotros-cover {
+    background: url(img/covers/nosotros_md.jpg) no-repeat center top;
+  }
+  .utilidades-cover {
+    background: url(img/covers/utilidades_md.jpg) no-repeat center top;
+  }
+  .tecnologia-cover {
+    background: url(img/covers/tecnologia_md.jpg) no-repeat center top;
+  }
+  .acido-cover {
+    background: url(img/covers/acido_md.jpg) no-repeat center top;
+  }
+  .articulos-cover {
+    background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
+      no-repeat center top;
+  }
+  .productos-cover {
+    background: url(img/covers/productos_md.jpg) no-repeat center top;
+  }
+  .mainMsje {
+    max-width: 60%;
+    font-size: 28px;
+  text-align: center;
+  margin: auto;
+  }
+
+  .img-footer {
+    margin-top: 40px;
+  }
+  .txt-footer {
+    margin-top: 40px;
+  }
+}
+/* col - LG */
+
+@media (min-width: 1201px) {
+  .portada {
+    min-height: 390px;
+  }
+  .portada-cover {
+    background: url(img/covers/coverTop.jpg) no-repeat center top;
+  }
+  .portada-contacto {
+    background: url(img/covers/cover2_lg.jpg) no-repeat center top;
+  }
+  .portada-casos {
+    background: url(img/covers/c_casos_lg.jpg) no-repeat center top;
+  }
+  .portada-beneficios {
+    background: url(img/covers/beneficios_lg.jpg) no-repeat center top;
+  }
+  .ptoVenta-cover {
+    background: url(img/covers/ptoVenta_lg.jpg) no-repeat center top;
+  }
+  .nosotros-cover {
+    background: url(img/covers/nosotros_lg.jpg) no-repeat center top;
+  }
+  .utilidades-cover {
+    background: url(img/covers/utilidades_lg.jpg) no-repeat center top;
+  }
+  .tecnologia-cover {
+    background: url(img/covers/tecnologia_lg.jpg) no-repeat center top;
+  }
+  .acido-cover {
+    background: url(img/covers/acido_lg.jpg) no-repeat center top;
+  }
+  .articulos-cover {
+    background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
+      no-repeat center top;
+  }
+  .productos-cover {
+    background: url(img/covers/productos_lg.jpg) no-repeat center top;
+  }
+  .mainMsje {
+    max-width: 70%;
+    font-size: 36px;
+  text-align: center;
+  margin: auto;
+    line-height: 40px;
+  }
+
+  /************** TABLE ******************************/
+
+  .table td {
+    width: 80%;
+  }
+  .table .td-small {
+    width: 10%;
+  }
+
+  .img-footer {
+    margin-top: 50px;
+  }
+  .txt-footer {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 950px) {
+  .cover {
+    background: url(assets/img/bg-cover/s.jpg) no-repeat top center;
+  }
+  .blue-bg {
+    background: url(assets/img/bg-pages/s.jpg) no-repeat white top center;
+  }
+  .two-columns {
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 10px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px;
+    /* Firefox */
+    column-gap: 10px;
+  }
+  .logo-bg-cover {
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  .logo-footer {
+    text-indent: -9999px;
+    width: 100px;
+    height: 65px;
+    background: url("assets/img/logos/logo-menu.png") no-repeat;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1150px) {
+  .cover-home {
+    background: url(img/m.jpg) no-repeat top center;
+  }
+}
+@media screen and (min-width: 1151px) and (max-width: 1600px) {
+  .cover-home {
+    background: url(img/l.jpg) no-repeat top center;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cover-home {
+    background: url(img/xl.jpg) no-repeat top center;
+  }
+}
+
+/* CSS  ARTICULOSsssssssssssss */
+
+
+.img-articulos{
+  display: block;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+.bwp-header .header-top {
+  padding: 15px 60px;
+}
+.header-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.bwp-header .wpbingoLogo img {
+  max-height: 25px;
+  width: auto;
+}
+.bwp-header.header-v1 .header-menu {
+  text-align: center;
+}
+.wpbingo-menu-wrapper .navbar-default {
+  border: none;
+  background: transparent;
+}
+
+@media (min-width: 992px) {
+  .bwp-navigation {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+#menu-menu-labeca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bwp-navigation ul > li.level-0 {
+  margin: 0 12px !important;
+}
+
+.bwp-navigation ul > li.level-0 > a {
+  position: relative;
+  text-transform: uppercase;
+  font-family: Muli, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+  color: #080808;
+  display: table;
+  white-space: nowrap;
+  letter-spacing: 3px;
+  line-height: 12px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.menu-item img._before,
+.rtl .menu-item img._after {
+  margin-right: 0.5em;
+}
+.menu-item-text img {
+  max-width: 22px !important;
+  height: auto;
+  margin-bottom: 0px;
+}
+.bwp-navigation ul {
+  padding: 0;
+  list-style: none;
+  float: none;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  margin: 0;
+}
+bwp-navigation ul > li.level-0 {
+  position: relative;
+  display: table;
+  float: left;
+  margin: 0 20px;
+}
+.bwp-navigation ul > li.level-0 > a > span:before {
+  position: absolute;
+  content: "";
+  bottom: -1px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: #e7b053;
+  width: 0;
+  height: 1px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.bwp-navigation ul > li.level-0 > a {
+  position: relative;
+  text-transform: uppercase;
+  font-family: Muli, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: transparent;
+  color: #080808;
+  display: table;
+  white-space: nowrap;
+  letter-spacing: 3px;
+  line-height: 12px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+#bwp-footer {
+  background: #8CC04B;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  color: #909090;
+  border-bottom: none;
+  font-size: 14px;
+  z-index: 2;
+  line-height: 24px;
+  margin-top: 110px;
+  margin: auto;
+}
+
+.elementor-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.elementor-section .elementor-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1200px;
+}
+#bwp-footer ul {
+  list-style: none;
+  padding: 0;
+}
