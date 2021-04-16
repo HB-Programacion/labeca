@@ -305,7 +305,7 @@ bwp-navigation ul > li.level-0 {
 @media screen and (max-width: 768px) {
 
   .container-menu{
-    padding:1rem 3rem;
+    padding:1rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
