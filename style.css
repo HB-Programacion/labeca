@@ -34,71 +34,10 @@ p {
   text-align: right;
 }
 
-/* titles */
-.ecavet_txt {
-  text-indent: -9999px;
-  width: 260px;
-  height: 60px;
-  background: url(img/logos/EcaVet.jpg) no-repeat;
-}
 
-.ecaderm_txt {
-  text-indent: -9999px;
-  width: 260px;
-  height: 60px;
-  background: url(img/logos/EcaDerm.jpg) no-repeat;
-}
-
-.ecaotic_txt {
-  text-indent: -9999px;
-  width: 260px;
-  height: 60px;
-  background: url(img/logos/EcaOtic.jpg) no-repeat;
-}
-
-.cover-home {
-  width: 100vw;
-  height: 104vh;
-  overflow: hidden;
-  background: url(img/xs.jpg) no-repeat top center;
-  position: relative;
-  margin-top: -20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-.cover-home > h1 {
-  display: block;
-  width: 280px;
-  height: 130px;
-  text-indent: -9999px;
-  background: url("img/logo-cover.png") no-repeat;
-  margin: 200px auto;
-  margin-bottom: 0px;
-}
-.cover-home > a {
-  display: block;
-  width: 50px;
-  height: 50px;
-  margin: 125px auto;
-  background: #38a1d6;
-  border-radius: 25px;
-  line-height: 50px;
-  color: white;
-  cursor: pointer;
-}
 
 /*  NAV BAR */
-.navbar-default {
-  background: #fff;
-  border: 0px solid #47afe4;
-}
-.navbar-brand {
-  width: 86px;
-  height: 38px;
-  background: url(img/logo.png) no-repeat;
-  text-indent: -9999px;
-  margin-top: 6px;
-}
+
 
 /* COVER */
 .portada {
@@ -106,43 +45,14 @@ p {
   max-height: 274px;
   height: 274px;
 }
-.portada-cover {
-  background: url(img/covers/coverTop_md-sm.jpg) no-repeat center top;
-}
-.portada-contacto {
-  background: url(img/covers/cover2_sm.jpg) no-repeat center top;
-}
-.portada-casos {
-  background: url(img/covers/c_casos_sm.jpg) no-repeat center top;
-}
-.portada-beneficios {
-  background: url(img/covers/beneficios_sm.jpg) no-repeat center top;
-}
-.ptoVenta-cover {
-  background: url(img/covers/ptoVenta_sm.jpg) no-repeat center top;
-}
-.nosotros-cover {
-  background: url(img/covers/nosotros_sm.jpg) no-repeat center top;
-}
-.utilidades-cover {
-  background: url(img/covers/utilidades_sm.jpg) no-repeat center top;
-}
-.tecnologia-cover {
-  background: url(img/covers/tecnologia_sm.jpg) no-repeat center top;
-}
-.acido-cover {
-  background: url(img/covers/acido_sm.jpg) no-repeat center top;
-}
+
 .articulos-cover {
   background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
     no-repeat center top;
 }
-.productos-cover {
-  background: url(img/covers/productos_sm.jpg) no-repeat center top;
-}
 
 .mainMsje {
-  color: #F39149;
+  color: #f39149;
   font-family: "Lato", cursive;
   max-width: 100%;
   font-size: 24px;
@@ -170,117 +80,16 @@ p {
   margin-bottom: 25px;
 }
 
-/* BOTONES */
-.btn-info {
-  background: #38a1d7;
-  border: #38a1d7;
-}
-.btn-info:hover {
-  background: #99b720;
-  border: #99b720;
-}
 
 /* Imagenes */
 img {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .img-mt {
   margin-top: 15px;
 }
 
-/* divisor */
-.divisor {
-  height: 120px;
-  margin: -20px 0 0 0;
-  background: url(img/divisor@2x.png) center center no-repeat;
-}
 
-/************** TABLE ******************************/
-
-.table td {
-  width: 70%;
-}
-.table .td-small {
-  width: 15%;
-}
-
-/************** FOOTER ******************************/
-footer {
-  border-top: 1px solid #ccc;
-  padding-top: 20px;
-}
-
-.img-footer {
-  margin-top: 30px;
-}
-.txt-footer {
-  margin-top: 30px;
-}
-/*
-    footer {
-        background: url(img/footer.jpg) no-repeat bottom right;
-        margin-top: 50px; min-height: 200px; 
-        
-    }
-    
-    footer > .row { margin-top: 120px;} 
-    */
-/************* PAGINA UTILIDADES ********************/
-.grid {
-  margin: 0 auto;
-}
-.grid-item {
-  float: left;
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-  margin: 5px 5px;
-}
-.grid-item .utilidad-img {
-  width: 250px;
-  height: 200px;
-}
-.grid-item--width2 {
-  width: 510px;
-  height: 250px;
-}
-.grid-item--width2 .utilidad-img {
-  width: 510px;
-  height: 200px;
-}
-.grid-item--width2 .utilidad-caption {
-  width: 510px;
-  height: 50px;
-}
-.grid-item--height2 {
-  height: 510px;
-}
-.grid-item--height2 .utilidad-img {
-  width: 250px;
-  height: 460px;
-}
-.grid-item-blue {
-  background: #38a1d6;
-}
-.grid-item-green {
-  background: #99b71d;
-}
-.utilidad-holder {
-  display: block;
-  min-height: 300px !important;
-  margin: 0 auto;
-}
-.utilidad-caption {
-  width: 250px;
-  height: 50px;
-  display: block;
-}
-.utilidad-caption > p {
-  font-size: 12px;
-  color: white;
-  padding: 10px 5px 0 15px;
-  line-height: 14px;
-}
 
 /* col - SM */
 @media (min-width: 768px) {
@@ -290,53 +99,19 @@ footer {
   .portada {
     min-height: 281px;
   }
-  .portada-cover {
-    background: url(img/covers/coverTop_md.jpg) no-repeat center top;
-  }
-  .portada-contacto {
-    background: url(img/covers/cover2_md.jpg) no-repeat center top;
-  }
-  .portada-casos {
-    background: url(img/covers/c_casos_md.jpg) no-repeat center top;
-  }
-  .portada-beneficios {
-    background: url(img/covers/beneficios_md.jpg) no-repeat center top;
-  }
-  .ptoVenta-cover {
-    background: url(img/covers/ptoVenta_md.jpg) no-repeat center top;
-  }
-  .nosotros-cover {
-    background: url(img/covers/nosotros_md.jpg) no-repeat center top;
-  }
-  .utilidades-cover {
-    background: url(img/covers/utilidades_md.jpg) no-repeat center top;
-  }
-  .tecnologia-cover {
-    background: url(img/covers/tecnologia_md.jpg) no-repeat center top;
-  }
-  .acido-cover {
-    background: url(img/covers/acido_md.jpg) no-repeat center top;
-  }
+
   .articulos-cover {
     background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
       no-repeat center top;
   }
-  .productos-cover {
-    background: url(img/covers/productos_md.jpg) no-repeat center top;
-  }
+
   .mainMsje {
     max-width: 60%;
     font-size: 28px;
-  text-align: center;
-  margin: auto;
+    text-align: center;
+    margin: auto;
   }
 
-  .img-footer {
-    margin-top: 40px;
-  }
-  .txt-footer {
-    margin-top: 40px;
-  }
 }
 /* col - LG */
 
@@ -344,123 +119,31 @@ footer {
   .portada {
     min-height: 390px;
   }
-  .portada-cover {
-    background: url(img/covers/coverTop.jpg) no-repeat center top;
-  }
-  .portada-contacto {
-    background: url(img/covers/cover2_lg.jpg) no-repeat center top;
-  }
-  .portada-casos {
-    background: url(img/covers/c_casos_lg.jpg) no-repeat center top;
-  }
-  .portada-beneficios {
-    background: url(img/covers/beneficios_lg.jpg) no-repeat center top;
-  }
-  .ptoVenta-cover {
-    background: url(img/covers/ptoVenta_lg.jpg) no-repeat center top;
-  }
-  .nosotros-cover {
-    background: url(img/covers/nosotros_lg.jpg) no-repeat center top;
-  }
-  .utilidades-cover {
-    background: url(img/covers/utilidades_lg.jpg) no-repeat center top;
-  }
-  .tecnologia-cover {
-    background: url(img/covers/tecnologia_lg.jpg) no-repeat center top;
-  }
-  .acido-cover {
-    background: url(img/covers/acido_lg.jpg) no-repeat center top;
-  }
+
+ 
   .articulos-cover {
     background: url(http://www.laboratorioseca.com/articulos/assets/articulos.png)
       no-repeat center top;
   }
-  .productos-cover {
-    background: url(img/covers/productos_lg.jpg) no-repeat center top;
-  }
+
   .mainMsje {
     max-width: 70%;
     font-size: 36px;
-  text-align: center;
-  margin: auto;
+    text-align: center;
+    margin: auto;
     line-height: 40px;
   }
 
   /************** TABLE ******************************/
 
-  .table td {
-    width: 80%;
-  }
-  .table .td-small {
-    width: 10%;
-  }
-
-  .img-footer {
-    margin-top: 50px;
-  }
-  .txt-footer {
-    margin-top: 50px;
-  }
+ 
 }
 
-@media screen and (min-width: 480px) and (max-width: 950px) {
-  .cover {
-    background: url(assets/img/bg-cover/s.jpg) no-repeat top center;
-  }
-  .blue-bg {
-    background: url(assets/img/bg-pages/s.jpg) no-repeat white top center;
-  }
-  .two-columns {
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-count: 1;
-    -webkit-column-gap: 10px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px;
-    /* Firefox */
-    column-gap: 10px;
-  }
-  .logo-bg-cover {
-    background: white;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    display: block;
-    margin: 0 auto;
-  }
-  .logo-footer {
-    text-indent: -9999px;
-    width: 100px;
-    height: 65px;
-    background: url("assets/img/logos/logo-menu.png") no-repeat;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
-  }
-}
-@media screen and (min-width: 951px) and (max-width: 1150px) {
-  .cover-home {
-    background: url(img/m.jpg) no-repeat top center;
-  }
-}
-@media screen and (min-width: 1151px) and (max-width: 1600px) {
-  .cover-home {
-    background: url(img/l.jpg) no-repeat top center;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .cover-home {
-    background: url(img/xl.jpg) no-repeat top center;
-  }
-}
+
 
 /* CSS  ARTICULOSsssssssssssss */
 
-
-.img-articulos{
+.img-articulos {
   display: block;
   margin: auto;
 }
@@ -578,7 +261,7 @@ bwp-navigation ul > li.level-0 {
 }
 
 #bwp-footer {
-  background: #8CC04B;
+  background: #8cc04b;
   padding-top: 0;
   padding-bottom: 0;
   position: relative;
@@ -611,4 +294,96 @@ bwp-navigation ul > li.level-0 {
 #bwp-footer ul {
   list-style: none;
   padding: 0;
+}
+.menu-desktop {
+  display: block;
+}
+.menu-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container-menu{
+    padding:1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container-menu img{
+    width: 80%;
+    z-index: 999;
+    position: relative;
+  }
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+
+  .menu-mobile .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-mobile nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 9rem;
+    padding-bottom: 9rem; */
+    /* z-index: 1; */
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in;
+  }
+
+  .menu-mobile nav.abrir {
+    transform: translateX(0%)!important;
+  }
+
+  .menu-mobile nav a {
+    color: #000;
+    text-decoration: none;
+    /* margin-right: 1rem; */
+    /* margin-left: 1rem; */
+    font-size: 2.2rem;
+    margin: 2rem 0;
+  }
+  .menu-mobile .hamb {
+    color: #000;
+    z-index: 999;
+    font-size: 2rem;
+  }
+  #menu-menu-labeca{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0rem;
+  }
+  #menu-menu-labeca li{
+    margin-bottom: 1rem;
+    
+  }
 }
